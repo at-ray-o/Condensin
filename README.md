@@ -11,6 +11,7 @@ This python script can be used to simulate equilibirum properties of Condensin a
 ## Requirements
  - Basic underderstanding of bash, python and how to use terminal
  - Python 3.7+
+ - OpenMM version 7
  - Python package installer conda, to install OpenMM. 
  - Linux, Mac or Windown OS
 
