@@ -1,46 +1,45 @@
-Condensin Simulation Package
+## Condensin Simulation Package
 
 Contains MD-simulation code written to simulate our model of Condensin using OpenMM.
 
-Description
+# Description
 
 This python script can be used to simulate equilibirum properties of Condensin and DNA by changing the number of steps Condensin spends in either B-state or O-state. The MD simulation is written using the OpenMM package. The script takes bond-length, bond-angle and initial particle positions as input. Finally it produces a trajectory and topology file as an output. The trajectory is written in dcd format and can be read using VMD.
 
-Documentation
+# Documentation
 
-Requirements
-Basic underderstanding of bash, python and how to use terminal
-Python 3.7+
-Python package installer conda, to install OpenMM. 
-Linux, Mac or Windown OS
+# Requirements
+ - Basic underderstanding of bash, python and how to use terminal
+ - Python 3.7+
+ - Python package installer conda, to install OpenMM. 
+ - Linux, Mac or Windown OS
 
-Install OpenMM
-For general OpenMM installation instructions see http://docs.openmm.org/latest/userguide/application.html#installing-openmm. 
-We used conda install -c conda-forge openmm cudatoolkit==10.0
-Clone/download the repository
-Move to the downloaded folder.
-Run the following script in a bash window capable of running python
-python CG_model_Condensin_Elbow.py 
+# Installing OpenMM
+ - For general OpenMM installation instructions see http://docs.openmm.org/latest/userguide/application.html#installing-openmm. 
+ - We used `conda install -c conda-forge openmm cudatoolkit==10.0`
+ - Clone/download the repository
+ - Move to the downloaded folder.
+ - Run the following script in a bash window capable of running python, `python CG_model_Condensin_Elbow.py `
 
-Input Files
-coord_start.pdb - Contains initial starting structure
-bondList.dat - Contains list of bonds and bond-lengths
-DNAangles.dat - Contains list of bond-angles used in DNA
-CondensinAngles.dat - Contains list of angles used in Condensin model
-particleList.dat - Contains particle names and sizes
+# Input Files
+ - `coord_start.pdb` - Contains initial starting structure
+ - `bondList.dat` - Contains list of bonds and bond-lengths
+ - `DNAangles.dat` - Contains list of bond-angles used in DNA
+ - `CondensinAngles.dat` - Contains list of angles used in Condensin model
+ - `particleList.dat` - Contains particle names and sizes
 
-Output Files
-topology.pdb - Contains a topology file to be used with dcd file
-output.dcd - Contains output trajectory in dcd format
-The bash window will also print all the energy values for each frame in the trajectory. This output can be redirected to a file if necessary.
+# Output Files
+ - `topology.pdb` - Contains a topology file to be used with dcd file
+ - `output.dcd` - Contains output trajectory in dcd format
+ - The bash window will also print all the energy values for each frame in the trajectory. This output can be redirected to a file if necessary.
 
-Examples
+# Examples
 
 Example Input:
-python CG_model_Condensin_Elbow.py
+`python CG_model_Condensin_Elbow.py`
 
 Example Output:
-Loaded everything
+`Loaded everything
 Setup forces
 
 #"Step"   "Time (ps)"   "Potential Energy (kJ/mole)"   "Total Energy (kJ/mole)"
@@ -75,3 +74,4 @@ Setup forces
 290000   1160.0000000002171   750.493896484375   1014.5487550422549
 300000   1199.9999999992713   761.3817749023438   1019.675249459222
 Time Elapsed :  41.842265129089355
+`
