@@ -4,7 +4,7 @@ Contains MD-simulation code written to simulate our model of Condensin using Ope
 
 ## Description
 
-This python script can be used to simulate equilibirum properties of Condensin and DNA by changing the number of steps Condensin spends in either B-state or O-state. The MD simulation is written using the OpenMM package. The script takes bond-length, bond-angle and initial particle positions as input. Finally it produces a trajectory and topology file as an output. The trajectory is written in dcd format and can be read using VMD.
+This python script can be used to simulate equilibirum properties of Condensin and DNA by changing the number of steps Condensin spends in either B-state or O-state. The MD simulation is written using the OpenMM package. The script takes bond-length, bond-angle and initial particle positions as input. Finally it produces a trajectory and topology file as an output. The trajectory is written in dcd format and can be read using VMD. The trajectories used in the main text and supplementary material can be found at: https://drive.google.com/drive/folders/1jCMMY0Joqomp7ZuXkdKahOTSRJBI3Ujk
 
 ## Documentation
 
