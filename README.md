@@ -41,7 +41,7 @@ Example Input:
 
 Example Output:
 
-`Loaded everything
+Loaded everything
 Setup forces
 
 #"Step"   "Time (ps)"   "Potential Energy (kJ/mole)"   "Total Energy (kJ/mole)"
@@ -76,4 +76,4 @@ Setup forces
 290000   1160.0000000002171   750.493896484375   1014.5487550422549
 300000   1199.9999999992713   761.3817749023438   1019.675249459222
 Time Elapsed :  41.842265129089355
-`
+
