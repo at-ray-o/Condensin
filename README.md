@@ -42,9 +42,11 @@ Example Input:
 Example Output:
 
 Loaded everything
+
 Setup forces
 
 #"Step"   "Time (ps)"   "Potential Energy (kJ/mole)"   "Total Energy (kJ/mole)"
+
 10000   39.99999999999959   710.12109375   936.8952330127358
 20000   80.00000000000584   754.1318359375   1012.8524764608592
 30000   120.00000000005473   790.8985595703125   1044.234991952777
