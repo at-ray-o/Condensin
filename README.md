@@ -42,7 +42,6 @@ Example Input:
 Example Output:
 
 Loaded everything
-
 Setup forces
 
 #"Step"   "Time (ps)"   "Potential Energy (kJ/mole)"   "Total Energy (kJ/mole)"
